@@ -1,0 +1,51 @@
+{% extends 'firstApp/layout.html' %}
+{% load static %}
+{% block body %}
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 border col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center justify-content-around mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa fa-user-check fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-dark mb-0">{{usernum}}</h1>
+                    </div>
+                    <h5>Users </h5>
+                </div>
+                <div class="col-md-6 border col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center justify-content-around mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa fa-list-alt fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-dark mb-0">{{catNum}}</h1>
+                    </div>
+                    <h5>Categories</h5>
+                </div>
+                <div class="col-md-6 border col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center justify-content-around mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa fa-list-alt fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-dark mb-0">{{subNum}}</h1>
+                    </div>
+                    <h5>Sub-Categories</h5>
+                </div>
+                <div class="col-md-6 border col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center justify-content-around mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa fa-list-alt fa-2x text-primary"></i>
+                        </div>
+                        <h1 class="display-1 text-dark mb-0">{{productNum}}</h1>
+                    </div>
+                    <h5>Products</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+
+
+{% endblock %}
